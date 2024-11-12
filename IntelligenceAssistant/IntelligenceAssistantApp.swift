@@ -6,12 +6,21 @@
 //
 
 import SwiftUI
+import ComposableArchitecture
 
 @main
 struct IntelligenceAssistantApp: App {
+    let store = Store(initialState: .init()) {
+        IntelligenceAssistant()
+    }
+    
+    init() {
+        store.send(.initialize)
+    }
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            IntelligenceAssistantView(store: store)
         }
     }
 }

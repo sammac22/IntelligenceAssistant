@@ -8,12 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		EEBB00862CD00503005415E9 /* IntelligenceAssistantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB00852CD00503005415E9 /* IntelligenceAssistantApp.swift */; };
-		EEBB00882CD00503005415E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB00872CD00503005415E9 /* ContentView.swift */; };
 		EEBB008A2CD00504005415E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEBB00892CD00504005415E9 /* Assets.xcassets */; };
 		EEBB008D2CD00504005415E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEBB008C2CD00504005415E9 /* Preview Assets.xcassets */; };
 		EEBB00972CD00504005415E9 /* IntelligenceAssistantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB00962CD00504005415E9 /* IntelligenceAssistantTests.swift */; };
 		EEBB00A12CD00504005415E9 /* IntelligenceAssistantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB00A02CD00504005415E9 /* IntelligenceAssistantUITests.swift */; };
 		EEBB00A32CD00504005415E9 /* IntelligenceAssistantUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB00A22CD00504005415E9 /* IntelligenceAssistantUITestsLaunchTests.swift */; };
+		EEBB00B32CD0065D005415E9 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB00B22CD0065D005415E9 /* ChatView.swift */; };
+		EEBB00B52CD006CD005415E9 /* ChatStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB00B42CD006CD005415E9 /* ChatStore.swift */; };
+		EEBB00BA2CD00EED005415E9 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = EEBB00B92CD00EED005415E9 /* ComposableArchitecture */; };
+		EEBB00BE2CD00FB6005415E9 /* LandingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB00BD2CD00FB6005415E9 /* LandingPageView.swift */; };
+		EEBB00C02CD00FBF005415E9 /* LandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB00BF2CD00FBF005415E9 /* LandingPage.swift */; };
+		EEBB00C22CD01152005415E9 /* IntelligenceAssistantStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB00C12CD01152005415E9 /* IntelligenceAssistantStore.swift */; };
+		EEBB00C52CD0135C005415E9 /* APIKeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB00C42CD0135C005415E9 /* APIKeyManager.swift */; };
+		EEBB00C82CD018DC005415E9 /* ModelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB00C72CD018DC005415E9 /* ModelProvider.swift */; };
+		EEBB00CA2CD01B33005415E9 /* IntelligenceAssistantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB00C92CD01B33005415E9 /* IntelligenceAssistantView.swift */; };
+		EEBB00CF2CD01E13005415E9 /* TypewriterText.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB00CE2CD01E13005415E9 /* TypewriterText.swift */; };
+		EEBB00D22CD197C0005415E9 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB00D12CD197C0005415E9 /* HomePageView.swift */; };
+		EEBB00D42CD197CC005415E9 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB00D32CD197CC005415E9 /* HomePage.swift */; };
+		EEBB00D72CD19D3B005415E9 /* ChatBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB00D62CD19D3B005415E9 /* ChatBubbleView.swift */; };
+		EEBB00D92CD27F9F005415E9 /* ClaudeAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB00D82CD27F9F005415E9 /* ClaudeAPIClient.swift */; };
+		EEBB00DC2CD41C58005415E9 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = EEBB00DB2CD41C58005415E9 /* Alamofire */; };
+		EEBB00DF2CD5814E005415E9 /* Coloring.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB00DE2CD5814E005415E9 /* Coloring.swift */; };
+		EEBB00E12CD66BC3005415E9 /* MinimalTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB00E02CD66BC2005415E9 /* MinimalTextField.swift */; };
+		EEBB00E42CD6741A005415E9 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB00E32CD6741A005415E9 /* Message.swift */; };
+		EEBB00E72CD67490005415E9 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB00E62CD67490005415E9 /* String+Extensions.swift */; };
+		EEBB00EB2CD697F1005415E9 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB00EA2CD697F1005415E9 /* AccountView.swift */; };
+		EEBB00ED2CD697FE005415E9 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB00EC2CD697FE005415E9 /* Account.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +56,6 @@
 /* Begin PBXFileReference section */
 		EEBB00822CD00503005415E9 /* IntelligenceAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntelligenceAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEBB00852CD00503005415E9 /* IntelligenceAssistantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelligenceAssistantApp.swift; sourceTree = "<group>"; };
-		EEBB00872CD00503005415E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EEBB00892CD00504005415E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEBB008C2CD00504005415E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EEBB00922CD00504005415E9 /* IntelligenceAssistantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntelligenceAssistantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +63,25 @@
 		EEBB009C2CD00504005415E9 /* IntelligenceAssistantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntelligenceAssistantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEBB00A02CD00504005415E9 /* IntelligenceAssistantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelligenceAssistantUITests.swift; sourceTree = "<group>"; };
 		EEBB00A22CD00504005415E9 /* IntelligenceAssistantUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelligenceAssistantUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EEBB00B22CD0065D005415E9 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		EEBB00B42CD006CD005415E9 /* ChatStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatStore.swift; sourceTree = "<group>"; };
+		EEBB00BD2CD00FB6005415E9 /* LandingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageView.swift; sourceTree = "<group>"; };
+		EEBB00BF2CD00FBF005415E9 /* LandingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPage.swift; sourceTree = "<group>"; };
+		EEBB00C12CD01152005415E9 /* IntelligenceAssistantStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelligenceAssistantStore.swift; sourceTree = "<group>"; };
+		EEBB00C42CD0135C005415E9 /* APIKeyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeyManager.swift; sourceTree = "<group>"; };
+		EEBB00C72CD018DC005415E9 /* ModelProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelProvider.swift; sourceTree = "<group>"; };
+		EEBB00C92CD01B33005415E9 /* IntelligenceAssistantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelligenceAssistantView.swift; sourceTree = "<group>"; };
+		EEBB00CE2CD01E13005415E9 /* TypewriterText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypewriterText.swift; sourceTree = "<group>"; };
+		EEBB00D12CD197C0005415E9 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		EEBB00D32CD197CC005415E9 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		EEBB00D62CD19D3B005415E9 /* ChatBubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubbleView.swift; sourceTree = "<group>"; };
+		EEBB00D82CD27F9F005415E9 /* ClaudeAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeAPIClient.swift; sourceTree = "<group>"; };
+		EEBB00DE2CD5814E005415E9 /* Coloring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coloring.swift; sourceTree = "<group>"; };
+		EEBB00E02CD66BC2005415E9 /* MinimalTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimalTextField.swift; sourceTree = "<group>"; };
+		EEBB00E32CD6741A005415E9 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		EEBB00E62CD67490005415E9 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		EEBB00EA2CD697F1005415E9 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		EEBB00EC2CD697FE005415E9 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +89,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEBB00BA2CD00EED005415E9 /* ComposableArchitecture in Frameworks */,
+				EEBB00DC2CD41C58005415E9 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +118,7 @@
 				EEBB00952CD00504005415E9 /* IntelligenceAssistantTests */,
 				EEBB009F2CD00504005415E9 /* IntelligenceAssistantUITests */,
 				EEBB00832CD00503005415E9 /* Products */,
+				EEBB00AF2CD00567005415E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,8 +135,12 @@
 		EEBB00842CD00503005415E9 /* IntelligenceAssistant */ = {
 			isa = PBXGroup;
 			children = (
+				EEBB00C62CD018D2005415E9 /* Shared */,
+				EEBB00B62CD006F9005415E9 /* Dependencies */,
+				EEBB00B02CD00645005415E9 /* Features */,
 				EEBB00852CD00503005415E9 /* IntelligenceAssistantApp.swift */,
-				EEBB00872CD00503005415E9 /* ContentView.swift */,
+				EEBB00C12CD01152005415E9 /* IntelligenceAssistantStore.swift */,
+				EEBB00C92CD01B33005415E9 /* IntelligenceAssistantView.swift */,
 				EEBB00892CD00504005415E9 /* Assets.xcassets */,
 				EEBB008B2CD00504005415E9 /* Preview Content */,
 			);
@@ -127,6 +172,147 @@
 			path = IntelligenceAssistantUITests;
 			sourceTree = "<group>";
 		};
+		EEBB00AF2CD00567005415E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEBB00B02CD00645005415E9 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				EEBB00E82CD697D1005415E9 /* AccountPage */,
+				EEBB00D02CD197B0005415E9 /* HomePage */,
+				EEBB00BC2CD00F93005415E9 /* FTUE */,
+				EEBB00B12CD0064D005415E9 /* Chat */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		EEBB00B12CD0064D005415E9 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				EEBB00D52CD19D2F005415E9 /* Views */,
+				EEBB00B22CD0065D005415E9 /* ChatView.swift */,
+				EEBB00B42CD006CD005415E9 /* ChatStore.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		EEBB00B62CD006F9005415E9 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				EEBB00C32CD01350005415E9 /* Storage */,
+				EEBB00BB2CD00F22005415E9 /* APIClients */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+		EEBB00B72CD006FF005415E9 /* Anthropic */ = {
+			isa = PBXGroup;
+			children = (
+				EEBB00D82CD27F9F005415E9 /* ClaudeAPIClient.swift */,
+			);
+			path = Anthropic;
+			sourceTree = "<group>";
+		};
+		EEBB00BB2CD00F22005415E9 /* APIClients */ = {
+			isa = PBXGroup;
+			children = (
+				EEBB00B72CD006FF005415E9 /* Anthropic */,
+			);
+			path = APIClients;
+			sourceTree = "<group>";
+		};
+		EEBB00BC2CD00F93005415E9 /* FTUE */ = {
+			isa = PBXGroup;
+			children = (
+				EEBB00BD2CD00FB6005415E9 /* LandingPageView.swift */,
+				EEBB00BF2CD00FBF005415E9 /* LandingPage.swift */,
+			);
+			path = FTUE;
+			sourceTree = "<group>";
+		};
+		EEBB00C32CD01350005415E9 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				EEBB00C42CD0135C005415E9 /* APIKeyManager.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		EEBB00C62CD018D2005415E9 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				EEBB00E52CD67484005415E9 /* Extensions */,
+				EEBB00E22CD6740E005415E9 /* Models */,
+				EEBB00DD2CD58141005415E9 /* Styles */,
+				EEBB00CD2CD01DFC005415E9 /* Views */,
+				EEBB00C72CD018DC005415E9 /* ModelProvider.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		EEBB00CD2CD01DFC005415E9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EEBB00CE2CD01E13005415E9 /* TypewriterText.swift */,
+				EEBB00E02CD66BC2005415E9 /* MinimalTextField.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EEBB00D02CD197B0005415E9 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				EEBB00D12CD197C0005415E9 /* HomePageView.swift */,
+				EEBB00D32CD197CC005415E9 /* HomePage.swift */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		EEBB00D52CD19D2F005415E9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EEBB00D62CD19D3B005415E9 /* ChatBubbleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EEBB00DD2CD58141005415E9 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				EEBB00DE2CD5814E005415E9 /* Coloring.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		EEBB00E22CD6740E005415E9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EEBB00E32CD6741A005415E9 /* Message.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EEBB00E52CD67484005415E9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EEBB00E62CD67490005415E9 /* String+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EEBB00E82CD697D1005415E9 /* AccountPage */ = {
+			isa = PBXGroup;
+			children = (
+				EEBB00EA2CD697F1005415E9 /* AccountView.swift */,
+				EEBB00EC2CD697FE005415E9 /* Account.swift */,
+			);
+			path = AccountPage;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +329,10 @@
 			dependencies = (
 			);
 			name = IntelligenceAssistant;
+			packageProductDependencies = (
+				EEBB00B92CD00EED005415E9 /* ComposableArchitecture */,
+				EEBB00DB2CD41C58005415E9 /* Alamofire */,
+			);
 			productName = IntelligenceAssistant;
 			productReference = EEBB00822CD00503005415E9 /* IntelligenceAssistant.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +405,10 @@
 				Base,
 			);
 			mainGroup = EEBB00792CD00503005415E9;
+			packageReferences = (
+				EEBB00B82CD00EED005415E9 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				EEBB00DA2CD41C57005415E9 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = EEBB00832CD00503005415E9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,7 +451,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEBB00882CD00503005415E9 /* ContentView.swift in Sources */,
+				EEBB00DF2CD5814E005415E9 /* Coloring.swift in Sources */,
+				EEBB00E12CD66BC3005415E9 /* MinimalTextField.swift in Sources */,
+				EEBB00CA2CD01B33005415E9 /* IntelligenceAssistantView.swift in Sources */,
+				EEBB00E42CD6741A005415E9 /* Message.swift in Sources */,
+				EEBB00E72CD67490005415E9 /* String+Extensions.swift in Sources */,
+				EEBB00ED2CD697FE005415E9 /* Account.swift in Sources */,
+				EEBB00C22CD01152005415E9 /* IntelligenceAssistantStore.swift in Sources */,
+				EEBB00B32CD0065D005415E9 /* ChatView.swift in Sources */,
+				EEBB00C02CD00FBF005415E9 /* LandingPage.swift in Sources */,
+				EEBB00C52CD0135C005415E9 /* APIKeyManager.swift in Sources */,
+				EEBB00D42CD197CC005415E9 /* HomePage.swift in Sources */,
+				EEBB00C82CD018DC005415E9 /* ModelProvider.swift in Sources */,
+				EEBB00CF2CD01E13005415E9 /* TypewriterText.swift in Sources */,
+				EEBB00BE2CD00FB6005415E9 /* LandingPageView.swift in Sources */,
+				EEBB00EB2CD697F1005415E9 /* AccountView.swift in Sources */,
+				EEBB00D92CD27F9F005415E9 /* ClaudeAPIClient.swift in Sources */,
+				EEBB00D72CD19D3B005415E9 /* ChatBubbleView.swift in Sources */,
+				EEBB00B52CD006CD005415E9 /* ChatStore.swift in Sources */,
+				EEBB00D22CD197C0005415E9 /* HomePageView.swift in Sources */,
 				EEBB00862CD00503005415E9 /* IntelligenceAssistantApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -588,6 +800,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EEBB00B82CD00EED005415E9 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = exactVersion;
+				version = 1.15.2;
+			};
+		};
+		EEBB00DA2CD41C57005415E9 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = exactVersion;
+				version = 5.10.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EEBB00B92CD00EED005415E9 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EEBB00B82CD00EED005415E9 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		EEBB00DB2CD41C58005415E9 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EEBB00DA2CD41C57005415E9 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EEBB007A2CD00503005415E9 /* Project object */;
 }
