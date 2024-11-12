@@ -170,6 +170,8 @@ fileprivate extension Message.Source {
 // MARK: - TCA Conformance
 extension ClaudeAPIClient: DependencyKey {
     static let liveValue = ClaudeAPIClient.live
+    
+    static var testValue: ClaudeAPIClient { .test }
 }
 
 extension DependencyValues {

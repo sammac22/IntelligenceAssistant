@@ -16,7 +16,7 @@ struct ChatStore {
         var error: ClaudeAPIError? = nil
     }
     
-    enum Action {
+    enum Action: Equatable {
         /// User submits message
         case submitTapped(String)
         /// Valid message received from API

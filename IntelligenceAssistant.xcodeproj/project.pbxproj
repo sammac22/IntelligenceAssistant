@@ -10,9 +10,6 @@
 		EEBB00862CD00503005415E9 /* IntelligenceAssistantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB00852CD00503005415E9 /* IntelligenceAssistantApp.swift */; };
 		EEBB008A2CD00504005415E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEBB00892CD00504005415E9 /* Assets.xcassets */; };
 		EEBB008D2CD00504005415E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEBB008C2CD00504005415E9 /* Preview Assets.xcassets */; };
-		EEBB00972CD00504005415E9 /* IntelligenceAssistantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB00962CD00504005415E9 /* IntelligenceAssistantTests.swift */; };
-		EEBB00A12CD00504005415E9 /* IntelligenceAssistantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB00A02CD00504005415E9 /* IntelligenceAssistantUITests.swift */; };
-		EEBB00A32CD00504005415E9 /* IntelligenceAssistantUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB00A22CD00504005415E9 /* IntelligenceAssistantUITestsLaunchTests.swift */; };
 		EEBB00B32CD0065D005415E9 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB00B22CD0065D005415E9 /* ChatView.swift */; };
 		EEBB00B52CD006CD005415E9 /* ChatStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB00B42CD006CD005415E9 /* ChatStore.swift */; };
 		EEBB00BA2CD00EED005415E9 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = EEBB00B92CD00EED005415E9 /* ComposableArchitecture */; };
@@ -34,6 +31,10 @@
 		EEBB00E72CD67490005415E9 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB00E62CD67490005415E9 /* String+Extensions.swift */; };
 		EEBB00EB2CD697F1005415E9 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB00EA2CD697F1005415E9 /* AccountView.swift */; };
 		EEBB00ED2CD697FE005415E9 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB00EC2CD697FE005415E9 /* Account.swift */; };
+		EEBB00FA2CE2E21D005415E9 /* AccountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB00F92CE2E21D005415E9 /* AccountTests.swift */; };
+		EEBB00FC2CE2E54A005415E9 /* HomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB00FB2CE2E54A005415E9 /* HomeTests.swift */; };
+		EEBB00FE2CE2E5A1005415E9 /* LandingPageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB00FD2CE2E5A1005415E9 /* LandingPageTests.swift */; };
+		EEBB01002CE2E5F4005415E9 /* ChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB00FF2CE2E5F4005415E9 /* ChatTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,10 +60,7 @@
 		EEBB00892CD00504005415E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEBB008C2CD00504005415E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EEBB00922CD00504005415E9 /* IntelligenceAssistantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntelligenceAssistantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EEBB00962CD00504005415E9 /* IntelligenceAssistantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelligenceAssistantTests.swift; sourceTree = "<group>"; };
 		EEBB009C2CD00504005415E9 /* IntelligenceAssistantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntelligenceAssistantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EEBB00A02CD00504005415E9 /* IntelligenceAssistantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelligenceAssistantUITests.swift; sourceTree = "<group>"; };
-		EEBB00A22CD00504005415E9 /* IntelligenceAssistantUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelligenceAssistantUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EEBB00B22CD0065D005415E9 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		EEBB00B42CD006CD005415E9 /* ChatStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatStore.swift; sourceTree = "<group>"; };
 		EEBB00BD2CD00FB6005415E9 /* LandingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageView.swift; sourceTree = "<group>"; };
@@ -82,6 +80,10 @@
 		EEBB00E62CD67490005415E9 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		EEBB00EA2CD697F1005415E9 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		EEBB00EC2CD697FE005415E9 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		EEBB00F92CE2E21D005415E9 /* AccountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTests.swift; sourceTree = "<group>"; };
+		EEBB00FB2CE2E54A005415E9 /* HomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTests.swift; sourceTree = "<group>"; };
+		EEBB00FD2CE2E5A1005415E9 /* LandingPageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageTests.swift; sourceTree = "<group>"; };
+		EEBB00FF2CE2E5F4005415E9 /* ChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +118,6 @@
 			children = (
 				EEBB00842CD00503005415E9 /* IntelligenceAssistant */,
 				EEBB00952CD00504005415E9 /* IntelligenceAssistantTests */,
-				EEBB009F2CD00504005415E9 /* IntelligenceAssistantUITests */,
 				EEBB00832CD00503005415E9 /* Products */,
 				EEBB00AF2CD00567005415E9 /* Frameworks */,
 			);
@@ -158,18 +159,9 @@
 		EEBB00952CD00504005415E9 /* IntelligenceAssistantTests */ = {
 			isa = PBXGroup;
 			children = (
-				EEBB00962CD00504005415E9 /* IntelligenceAssistantTests.swift */,
+				EEBB00F82CE2E206005415E9 /* FeatureTests */,
 			);
 			path = IntelligenceAssistantTests;
-			sourceTree = "<group>";
-		};
-		EEBB009F2CD00504005415E9 /* IntelligenceAssistantUITests */ = {
-			isa = PBXGroup;
-			children = (
-				EEBB00A02CD00504005415E9 /* IntelligenceAssistantUITests.swift */,
-				EEBB00A22CD00504005415E9 /* IntelligenceAssistantUITestsLaunchTests.swift */,
-			);
-			path = IntelligenceAssistantUITests;
 			sourceTree = "<group>";
 		};
 		EEBB00AF2CD00567005415E9 /* Frameworks */ = {
@@ -311,6 +303,17 @@
 				EEBB00EC2CD697FE005415E9 /* Account.swift */,
 			);
 			path = AccountPage;
+			sourceTree = "<group>";
+		};
+		EEBB00F82CE2E206005415E9 /* FeatureTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEBB00F92CE2E21D005415E9 /* AccountTests.swift */,
+				EEBB00FB2CE2E54A005415E9 /* HomeTests.swift */,
+				EEBB00FD2CE2E5A1005415E9 /* LandingPageTests.swift */,
+				EEBB00FF2CE2E5F4005415E9 /* ChatTests.swift */,
+			);
+			path = FeatureTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -478,7 +481,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEBB00972CD00504005415E9 /* IntelligenceAssistantTests.swift in Sources */,
+				EEBB00FA2CE2E21D005415E9 /* AccountTests.swift in Sources */,
+				EEBB00FC2CE2E54A005415E9 /* HomeTests.swift in Sources */,
+				EEBB00FE2CE2E5A1005415E9 /* LandingPageTests.swift in Sources */,
+				EEBB01002CE2E5F4005415E9 /* ChatTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,8 +492,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEBB00A32CD00504005415E9 /* IntelligenceAssistantUITestsLaunchTests.swift in Sources */,
-				EEBB00A12CD00504005415E9 /* IntelligenceAssistantUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

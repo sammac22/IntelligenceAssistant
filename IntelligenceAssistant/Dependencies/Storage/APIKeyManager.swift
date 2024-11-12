@@ -52,12 +52,14 @@ struct APIKeyManager: APIKeyManagerProtocol {
 
 // MARK: - TCA Conformance
 extension APIKeyManager: DependencyKey {
-  static let liveValue = APIKeyManager.live
+    static let liveValue = APIKeyManager.live
+    
+    static let testValue: APIKeyManager = .init(setKey: { _, _ in }, getKey: { _ in nil }, checkKeys: { true })
 }
 
 extension DependencyValues {
-  var apiKeyManager: APIKeyManager {
-    get { self[APIKeyManager.self] }
-    set { self[APIKeyManager.self] = newValue }
-  }
+    var apiKeyManager: APIKeyManager {
+        get { self[APIKeyManager.self] }
+        set { self[APIKeyManager.self] = newValue }
+    }
 }
